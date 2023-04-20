@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zen</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+  <script>
+    // Your web app's Firebase configuration (Frase inicial del código Firebase de interés )
+    // Agrega aquí 
+    const firebaseConfig = {
+      apiKey: "AIzaSyBBqh2Mgq7oRcaOwdYrFkYtjOBncZ3jw80",
+      authDomain: "juego-multijugador-de-carros.firebaseapp.com",
+      databaseURL: "https://juego-multijugador-de-carros-default-rtdb.firebaseio.com",
+      projectId: "juego-multijugador-de-carros",
+      storageBucket: "juego-multijugador-de-carros.appspot.com",
+      messagingSenderId: "539427101345",
+      appId: "1:539427101345:web:2fe99d03bf2315f85beee0",
+      measurementId: "G-2YPEVXS3TJ"
+    };
+    // Initialize Firebase (Frase final del código Firebase de interés)
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
